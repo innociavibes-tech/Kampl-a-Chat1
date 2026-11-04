@@ -1,1 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#172442">
 
+    <title>Kampl'a Chat</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="brand">
+            <div class="logo">KA</div>
+            <h1>Kampl'a Chat</h1>
+        </div>
+
+        <div class="header-icons">
+
+            <button aria-label="QR Scanner">▦</button>
+
+            <button aria-label="Settings">⚙</button>
+
+        </div>
+
+    </header>
+
+
+    <!-- SEARCH -->
+    <div class="search-container">
+
+        <div class="search-box">
+
+            <span>⌕</span>
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search chats..."
+            >
+
+        </div>
+
+    </div>
+
+
+    <!-- CHAT LIST -->
+    <main class="chat-list" id="chatList">
+
+
+        <!-- CHAT 1 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">SA</div>
+
+                <span class="online"></span>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>
+                        <span class="pin">♟</span>
+                        Sarah Akello
+                        <span class="verified">✓</span>
+                    </h3>
+
+                    <small>12:34 PM</small>
+
+                </div>
+
+                <p>See you at the market tomorrow!</p>
+
+            </div>
+
+            <span class="unread">3</span>
+
+        </div>
+
+
+        <!-- CHAT 2 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">JM</div>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>
+                        <span class="pin">♟</span>
+                        James Mukasa 🛵
+                    </h3>
+
+                    <small>Yesterday</small>
+
+                </div>
+
+                <p>🛵 I'm on the way, 5 mins</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT 3 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">KA</div>
+
+                <span class="online"></span>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>
+                        Kampl'a Admin
+                        <span class="gold-verified">✓</span>
+                    </h3>
+
+                    <small>10:15 AM</small>
+
+                </div>
+
+                <p>✅ Your account is now verified</p>
+
+            </div>
+
+            <span class="unread">1</span>
+
+        </div>
+
+
+        <!-- CHAT 4 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">GN</div>
+
+                <span class="online"></span>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>Grace Nakato</h3>
+
+                    <small>Yesterday</small>
+
+                </div>
+
+                <p>Did you see the notes I sent?</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT 5 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">DO</div>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>
+                        Daniel Ochieng
+                        <span class="verified">✓</span>
+                    </h3>
+
+                    <small>Mon</small>
+
+                </div>
+
+                <p>That code snippet is 🔥</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT 6 -->
+        <div class="chat">
+
+            <div class="avatar-container">
+
+                <div class="avatar">KA</div>
+
+            </div>
+
+            <div class="chat-details">
+
+                <div class="chat-heading">
+
+                    <h3>Kofi Ama</h3>
+
+                    <small>Sun</small>
+
+                </div>
+
+                <p>Send me your MTN number</p>
+
+            </div>
+
+            <span class="unread">2</span>
+
+        </div>
+
+        <p id="emptyState" hidden>No chats found.</p>
+
+    </main>
+
+
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+
+        <button class="nav-item active">
+            <span>●</span>
+            <small>Chats</small>
+            <i class="badge">4</i>
+        </button>
+
+        <button class="nav-item">
+            <span>♧</span>
+            <small>Calls</small>
+        </button>
+
+        <button class="nav-item">
+            <span>▷</span>
+            <small>Videos</small>
+        </button>
+
+        <button class="nav-item">
+            <span>◯</span>
+            <small>Status</small>
+        </button>
+
+        <button class="nav-item">
+            <span>♙+</span>
+            <small>Add Chat</small>
+        </button>
+
+        <button class="nav-item">
+            <span>▤</span>
+            <small>MoMo</small>
+        </button>
+
+        <button class="nav-item">
+            <span>☻</span>
+            <small>Me</small>
+        </button>
+
+    </nav>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+                      </html>
