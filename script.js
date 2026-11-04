@@ -6,6 +6,7 @@ const chats = document.querySelectorAll(".chat");
 
 const emptyState = document.getElementById("emptyState");
 
+
 searchInput.addEventListener("input", function() {
 
     const searchValue = this.value.toLowerCase().trim();
